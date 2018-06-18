@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SJAboutUsViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="贝壳日记" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5c-2j-T8r">
+                    <rect key="frame" x="15" y="20" width="80" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="KwU-OO-uAx"/>
+                        <constraint firstAttribute="width" constant="80" id="bYA-Qi-bkG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.贝壳日记是一款简洁、精致的日记App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPS-xE-4G1">
+                    <rect key="frame" x="15" y="55" width="345" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="o5g-zX-CqO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.贝壳日记可以随时随地通过发表文字、照片、语音等方式记录自己的个人生活。所有的记录信息都是本地化数据" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0U-hA-UGG">
+                    <rect key="frame" x="15" y="85" width="345" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="QiE-Mg-3rk"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3.贝壳日记致力于用户隐私保护，设置账号登录密码、以及安全锁为您的数据安全保驾护航" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fis-xT-w27">
+                    <rect key="frame" x="15" y="155" width="345" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="5yA-6L-EJa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.贝壳日记正在一步一步地成长，希望得到您的大力支持，我们与您共同成长" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0sU-xm-bnW">
+                    <rect key="frame" x="15" y="210" width="345" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="55S-Ns-dx5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V 1.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sbw-Mb-GhX">
+                    <rect key="frame" x="157.5" y="632" width="60" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="G6W-d5-g6r"/>
+                        <constraint firstAttribute="height" constant="20" id="pTf-jj-gJ2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="z5c-2j-T8r" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="1FI-eg-c6v"/>
+                <constraint firstItem="Sbw-Mb-GhX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="4t0-RM-FwF"/>
+                <constraint firstItem="pPS-xE-4G1" firstAttribute="top" secondItem="z5c-2j-T8r" secondAttribute="bottom" constant="15" id="7uY-TB-IIn"/>
+                <constraint firstItem="z5c-2j-T8r" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Cvd-Aj-kbX"/>
+                <constraint firstItem="A0U-hA-UGG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Hqa-DI-KDn"/>
+                <constraint firstItem="0sU-xm-bnW" firstAttribute="top" secondItem="fis-xT-w27" secondAttribute="bottom" constant="10" id="Jf0-7a-l1V"/>
+                <constraint firstItem="A0U-hA-UGG" firstAttribute="top" secondItem="pPS-xE-4G1" secondAttribute="bottom" constant="10" id="LoL-pv-JCo"/>
+                <constraint firstAttribute="bottom" secondItem="Sbw-Mb-GhX" secondAttribute="bottom" constant="15" id="TQE-t7-6lm"/>
+                <constraint firstAttribute="trailing" secondItem="A0U-hA-UGG" secondAttribute="trailing" constant="15" id="Wg8-eY-ShQ"/>
+                <constraint firstAttribute="trailing" secondItem="0sU-xm-bnW" secondAttribute="trailing" constant="15" id="WmQ-q3-J9u"/>
+                <constraint firstItem="fis-xT-w27" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Xg6-Vr-bcY"/>
+                <constraint firstItem="fis-xT-w27" firstAttribute="top" secondItem="A0U-hA-UGG" secondAttribute="bottom" constant="10" id="Yx7-Rr-lpN"/>
+                <constraint firstItem="pPS-xE-4G1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="e3H-Cy-Qrf"/>
+                <constraint firstItem="0sU-xm-bnW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="fpE-rn-0d2"/>
+                <constraint firstAttribute="trailing" secondItem="fis-xT-w27" secondAttribute="trailing" constant="15" id="sPJ-n8-nv4"/>
+                <constraint firstAttribute="trailing" secondItem="pPS-xE-4G1" secondAttribute="trailing" constant="15" id="zhs-2D-Gvl"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

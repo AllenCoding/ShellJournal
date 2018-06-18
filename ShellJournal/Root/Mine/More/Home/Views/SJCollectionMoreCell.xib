@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="collectionIndentifer" id="gTV-IL-0wX" customClass="SJCollectionMoreCell">
+            <rect key="frame" x="0.0" y="0.0" width="60" height="101"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="60" height="101"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每日签到" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8W2-gc-gub">
+                        <rect key="frame" x="0.0" y="80.5" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Med-Dx-bj1"/>
+                            <constraint firstAttribute="height" constant="20" id="d08-Vb-uVR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="每日签到" translatesAutoresizingMaskIntoConstraints="NO" id="DPa-El-cTP">
+                        <rect key="frame" x="5" y="25.5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Tzt-WA-UJU"/>
+                            <constraint firstAttribute="width" constant="50" id="gft-eT-Jgs"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="8W2-gc-gub" firstAttribute="top" secondItem="DPa-El-cTP" secondAttribute="bottom" constant="5" id="KeK-TI-762"/>
+                <constraint firstItem="DPa-El-cTP" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="XSt-gP-Qdp"/>
+                <constraint firstItem="8W2-gc-gub" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="uuE-UA-2TP"/>
+                <constraint firstItem="DPa-El-cTP" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="xb8-Lb-n02"/>
+            </constraints>
+            <size key="customSize" width="60" height="101"/>
+            <connections>
+                <outlet property="iconView" destination="DPa-El-cTP" id="JyA-sE-2aM"/>
+                <outlet property="titleLabel" destination="8W2-gc-gub" id="nfP-57-hhx"/>
+            </connections>
+            <point key="canvasLocation" x="-619" y="5.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="每日签到" width="64" height="64"/>
+    </resources>
+</document>
